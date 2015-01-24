@@ -49,3 +49,35 @@ table {
 
 /* END OF RESET*/
 
+nav {
+	display: inline;
+	padding: 5%;
+
+}
+.content{
+	max-width: 720px;
+	margin: auto;
+	min-width: 600px;
+}
+#logo{
+	margin-left: 2%;
+	width: 25px;
+	float: left;
+}
+
+nav ul{
+	float: right;
+
+}
+
+nav li {
+	display: inline-block;
+	margin: 15px;
+	font-family:'Roboto', sans-serif;
+
+}
+
+nav li a{
+	text-decoration: none;
+	color: gray;
+}
